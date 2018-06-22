@@ -11,8 +11,8 @@ import com.facebook.react.modules.core.DeviceEventManagerModule;
 import java.io.IOException;
 import java.nio.charset.Charset;
 
-import okhttp3.MediaType;
-import okhttp3.ResponseBody;
+import expolib_v1.okhttp3.MediaType;
+import expolib_v1.okhttp3.ResponseBody;
 import okio.Buffer;
 import okio.BufferedSource;
 import okio.Okio;
