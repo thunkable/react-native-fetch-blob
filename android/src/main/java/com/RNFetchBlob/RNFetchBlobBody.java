@@ -19,7 +19,7 @@ import java.util.ArrayList;
 
 import expolib_v1.okhttp3.MediaType;
 import expolib_v1.okhttp3.RequestBody;
-import okio.BufferedSink;
+import expolib_v1.okio.BufferedSink;
 
 public class RNFetchBlobBody extends RequestBody{
 
