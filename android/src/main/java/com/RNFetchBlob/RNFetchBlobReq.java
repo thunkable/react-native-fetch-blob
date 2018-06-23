@@ -380,7 +380,7 @@ public class RNFetchBlobReq extends BroadcastReceiver implements Runnable {
 
             Call call =  client.newCall(req);
             taskTable.put(taskId, call);
-            call.enqueue(new okhttp3.Callback() {
+            call.enqueue(new expolib_v1.okhttp3.Callback() {
 
                 @Override
                 public void onFailure(Call call, IOException e) {
